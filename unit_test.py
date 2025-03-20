@@ -1,6 +1,10 @@
 import unittest
 import time
-from lab1 import Student, Course, Professor, LoginUser, get_user_role
+from student import Student
+from course import Course
+from professor import Professor
+from login import LoginUser, get_user_role
+from grade import build_grade_hash_table
 
 class TestCheckMyGrade(unittest.TestCase):
 
